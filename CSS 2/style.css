@@ -1,0 +1,32 @@
+
+
+.container{
+    background-color: cadetblue;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid red;
+}
+
+.child1, .child2, .child3{
+    height: 200px;
+    border: 1px dotted blue;
+    width: 300px;
+    display: inline-block;
+}
+
+.child1{
+    background-color: burlywood;
+}
+
+.child2{
+    background-color: orangered;
+    flex-basis: 50%;
+}
+
+.child3{
+    background-color: crimson;
+}
