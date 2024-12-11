@@ -1,13 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 import Decrement from './components/Decrement'
+import ImageManipulation from './components/ImageManipulation'
 
 function App() {
   return (
     <>
-      <Decrement />
+      {/* <Decrement /> */}
+      <ImageManipulation />
+
     </>
   )
 }
